@@ -1,0 +1,23 @@
+{
+  "name": "bamazon_manager",
+  "version": "1.0.0",
+  "description": "I created Amazon-like storefront with the MySQL. The app will take in orders from customers and deplete stock from the store's inventory.",
+  "main": "BamazonManager.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenninep/BamazonManager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenninep/BamazonManager/issues"
+  },
+  "homepage": "https://github.com/jenninep/BamazonManager#readme",
+  "dependencies": {
+    "inquirer": "^1.1.2",
+    "mysql": "^2.11.1"
+  }
+}

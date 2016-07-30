@@ -82,11 +82,13 @@ var checkQuantity = function(productChoice){
 			}) 
 		} else {
 			console.log("We do not have that amount in stock to fill your order. Please choose a qunatity less than " + qty +"!")
+			
 		}
+		connection.end();
 	})
 }
 
-connection.end
+
 
 
 
